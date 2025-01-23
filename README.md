@@ -26,8 +26,7 @@ Este repositorio contiene el código fuente del frontend de una aplicación de t
     ```bash
     npm install
 
-3. Agregar variablesde entorno
-    Se requiere
+3. Agregar variables de entorno
 
     ```javascript
     BASE_URL=Your-backend-url
