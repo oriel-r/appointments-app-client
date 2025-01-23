@@ -1,0 +1,159 @@
+/* reset.css */
+
+/* Eliminar márgenes y paddings predeterminados, establecer box-sizing y eliminar decoraciones */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Establecer un line-height consistente y eliminar decoraciones de listas */
+ol, ul {
+  list-style: none;
+}
+
+/* Establecer un line-height consistente y eliminar márgenes en listas */
+blockquote, q {
+  quotes: none;
+}
+
+/* Eliminar comillas de blockquote y q */
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Reset para tablas, eliminando espacios entre celdas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset para tipografía, usando una fuente más legible */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Definir estilos básicos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/* Asegurar que los elementos de formulario no hereden el font-family */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Definir un ancho completo para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Eliminar subrayado de enlaces y configurar color inicial */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Definir elementos de bloque para mejor control del layout */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* Configurar altura mínima y ancho para el body */
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+/* Asegurar que los botones no tengan bordes adicionales */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Definir un estilo base para los campos de formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  width: 100%;
+}
+
+/* Establecer un fondo base y color para todo el documento */
+html {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilo base para elementos de bloque */
+p {
+  margin-bottom: 1em;
+}
+
+/* Asegurar que videos se adapten al contenedor */
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Asegurar que los campos de texto no tengan contorno en navegadores móviles */
+textarea:focus, input:focus {
+  outline: none;
+}
+
+/* Configurar tipografía base */
+html, body, button, input, select, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+/* Eliminar la apariencia predeterminada en Chrome y Safari */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Establecer un fondo y color para el cursor */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+:-moz-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #bbb;
+}
+

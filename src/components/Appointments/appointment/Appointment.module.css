@@ -1,0 +1,10 @@
+.item{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 1rem;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+
+}

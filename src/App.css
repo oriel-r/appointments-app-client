@@ -1,0 +1,18 @@
+ #root {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.pageLayout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+footer{
+  margin-top: auto;
+}
